@@ -11,17 +11,14 @@ The current implementation focuses on weather forecasts for Brasília, Brazil.
 ### Architecture
 Open-Meteo Weather API
           |
-          
      Data Ingestion
           |
-          
- Raw JSON Storage ------- Amazon S3 (raw/)
+Raw JSON Storage ------- Amazon S3 (raw/)
           |
           
  Data Transformation
           |
-          
-    Data Validation
+   Data Validation
           |
           
  Incremental Processing
@@ -62,24 +59,36 @@ Open-Meteo Weather API
 ### Project Structure
 
 Live-Weather-Data-Platform/
+
 ├── data/                         # Generated data (excluded from Git)
+
 ├── notebook/
+
 │   └── weather_api_exploration.ipynb
+
 ├── src/
+
 │   └── live_weather_data_platform/
-│       ├── fingerprinting.py
-│       ├── incremental.py
-│       ├── ingestion.py
-│       ├── main.py
-│       ├── pipeline.py
-│       ├── storage.py
-│       ├── transformation.py
-│       └── validation.py
+       
+       ├── fingerprinting.py
+       ├── incremental.py      
+       ├── ingestion.py
+       ├── main.py
+       ├── pipeline.py
+       ├── storage.py
+       ├── transformation.py
+       └── validation.py
+
 ├── tests/
+
 ├── .gitignore
+
 ├── .python-version
+
 ├── pyproject.toml
+
 ├── README.md
+
 └── uv.lock
 
 ### Prerequisites
