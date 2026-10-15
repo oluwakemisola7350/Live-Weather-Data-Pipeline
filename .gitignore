@@ -1,0 +1,23 @@
+#Python-generated files
+pycache/
+__pycache__/ 
+*.py[cod] 
+build/ 
+dist/ 
+wheels/ 
+*.egg-info/ 
+.pytest_cache/
+
+# Virtual environments
+.venv/
+
+#Environment variables and secrets
+.env 
+.env.* 
+!.env.example
+
+#Generated weather data
+data/
+
+#Jupyter
+.ipynb_checkpoints/
