@@ -1,4 +1,4 @@
-#Live Weather Data Engineering Platform
+# Live Weather Data Engineering Platform
 
 An end-to-end data engineering project that ingests hourly weather forecast data, validates and transforms it, tracks forecast revisions, and stores raw data in Amazon S3.
 
